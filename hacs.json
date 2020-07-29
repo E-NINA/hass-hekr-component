@@ -1,6 +1,14 @@
 {
     "name": "Hekr Component",
     "content_in_root": false,
-    "domains": ["sensor"],
-    "homeassistant": "0.96.0"
+    "filename": false,
+    "render_readme": false,
+    "domains": [
+        "sensor",
+        "switch"
+    ],
+    "country": false,
+    "homeassistant": "0.96.0",
+    "persistent_directory": false,
+    "iot_class": "Local Polling"
 }
